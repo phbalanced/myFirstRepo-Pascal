@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.red {
+	color: red; /*#FF0000*/
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.font-big {
+	font-size: 30px;
+}
+
+.font-tiny {
+	font-size: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.font-change {
+	font-family: Verdana;
+}
+
+.text-big-orange-bold {
+	font-size: 18px;
+	color: orange;
+	font-weight: bold;
+}
+
+.styledFont {
+	font-family: Helvetica;
+	color: blue;
+	font-style: italic;
+}
+
+#styledImage {
+	border-width: thick;
+	border-style: double;
+	border-color: red;
+	padding: 10px;
+}

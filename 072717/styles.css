@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document 
+	Type Exercise
+*/
+
+h1 {
+	color: blue;
+	font-family: Arial;
+}
+
+p {
+	line-height: ;
+}
+
+.my-san-serif {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	line-height: 1.5em;
+	letter-spacing: 2px;
+	color: orange;
+}
+
+.my-monospace {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	line-height: 1.5em;
+	letter-spacing: 2px;
+	color: blue;
+}

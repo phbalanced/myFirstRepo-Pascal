@@ -1,0 +1,95 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+	font-size: 24px;
+	line-height: 32px;
+	color: #ccc;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+	padding: 20px;
+	/*margin-bottom: ;*/
+}
+
+#left {
+	float: left;
+	background-color: #666;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	width: 33.3%;
+  	color: #000;
+}
+
+#middle {
+	float: left;
+	background-color: #888;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	width: 33.3%;
+  	color: #000;
+}
+
+#right {
+	float: left;
+	background-color: #666;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	width: 33.3%;
+  	color: #000;
+}
+
+#full {
+	background-color: #eee;
+	overflow: auto;
+	width: 100%;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	clear: both;
+  	height: 300px;
+  	color: #000;
+}
+
+#division {
+	background-color: #6ea3da;
+	padding: 20px;
+	margin-top: 30px;
+	color: #000;
+}
+
+aside {
+	float: left;
+	background-color: #fff;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	width: 33%;
+  	height: 250px;
+  	color: #000;
+}
+
+footer {
+	clear: both;
+	background-color: #ccc;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	color: #000;
+}
+
+.clearfix::after {
+	content: "";
+	dislay: block;
+	clear: both;
+}
