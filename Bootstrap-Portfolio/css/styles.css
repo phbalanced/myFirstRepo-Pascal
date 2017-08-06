@@ -1,0 +1,56 @@
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+	background: url(../images/fallingStar-NightSky_1920x1080.jpg);
+	color: white;
+}
+
+body {
+    padding-top: 50px; /* Required padding if I use .navbar-fixed-top. Need to remove if using .navbar-static-top and remember to change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.navbar-brand2 {
+	color: white !important;
+}
+
+.portfolio-h3 {
+	color: white !important;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 30px 0;
+	color: white !important;
+}
+
+footer p {
+	text-align: center;
+}
+
+
+/* Responsive Styles -- Image related*/
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+}
