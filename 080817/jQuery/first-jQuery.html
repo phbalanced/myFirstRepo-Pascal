@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<style>
+		.fancy{
+			font-size: 100px;
+			color: green;
+		}
+
+	</style>
+</head>
+
+
+<body>
+
+	<div id="empty-div"></div>
+
+	<script type="text/javascript">
+		//document.getElementById("empty-div");   vanilla JavaScript
+
+		//done with jQuery
+		var emptyDiv = $("#empty-div");
+		emptyDiv.html("<h1>This is jQuery!</h1>");
+
+		var newDiv = $("<div>");
+		newDiv.html("this is awesome");
+		emptyDiv.append(newDiv);
+
+		emptyDiv.append("A pleasure to meet you.");
+		emptyDiv.attr("class", "fancy"); //adding the class of "fancy" to the jQuery statement
+	</script>
+	
+
+
+</body>
+
+</html>

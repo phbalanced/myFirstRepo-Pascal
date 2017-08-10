@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title></title>
+	<!-- Added link to the jQuery Library -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<h3 id="click-me">CLICK ME!</h3>
+
+	<!-- <button id="click-button"> -->
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#click-me").on("click", function(){
+			alert("I've been clicked!");
+		});
+	});
+	</script>
+
+
+
+</body>
+
+</html>
