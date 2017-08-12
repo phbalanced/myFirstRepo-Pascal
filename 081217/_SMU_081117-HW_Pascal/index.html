@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Psychic Game by Pascal</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+ 
+  <div class="wrapper">
+   
+    <div class="col-md-3">
+    </div><!-- empty div because I only wanted the "game" to take up 6 columns and be centered on the page -->
+     
+      <div class="col-md-6 text-center">
+        
+        <header>
+        <h1>The Psychic Game</h1>
+        </header>
+		<hr/>
+        <div class="sub-header">
+          <h2>Think Your Psychic???</h2>
+          <h3>Try guessing the letter the computer randomly picks. Any letter from A - Z.</h3>
+          <!--<h4>Press any key to start. You get 9 guesses each turn.</h4>-->
+        </div>
+        
+		<hr/>
+        <div class="game">
+          <ul class="list-group">
+            <li class="list-group-item"><p id="wins">Wins: </p></li>
+            <li class="list-group-item"><p id="losses">Losses: </p></li>
+            <li class="list-group-item"><p id="guessLeft">Letters Left To Guess: </p></li> <!--guessesLeft in JS-->
+            <li class="list-group-item"><p id="let">Letters Guessed: </p></li> <!--guessLeft & guessedLetters used in updateGuessesLeft function in JS-->
+          </ul>  
+        </div>
+        
+        <div class="col-md-3">   
+        </div> <!-- empty div because I only wanted the "game" to take up 6 columns-->
+        
+      </div>
+  </div> 
+   
+    <div class="col-md-12">
+      <div class="footer">
+        <footer class="footer text-center">
+          <div class="footer-container">
+            <p>2017 Pascal Hargrove || SMU Web Dev Bootcamp || Aug 2017</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="js/game.js"></script>
+    
+</body>
+
+</html>
