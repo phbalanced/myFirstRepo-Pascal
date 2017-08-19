@@ -1,0 +1,42 @@
+body{
+	background: url("../darkness.jpg") repeat center center fixed;
+}
+
+.jumbotron{
+	text-align: center;
+	margin-top: 10px;
+	background-color:#FBDFFA;
+}
+
+.panel-heading{
+	background-color: #8CF7F2 !important;
+}
+
+.panelStyle{
+	float: left;
+	margin: 10px 20px 10px 0px;
+}
+
+.panelStyle1{
+	float: left;
+	margin: 10px;
+	background-color:#ECB93B;
+}
+
+.panelStyle2{
+	float: left;
+	margin: 10px;
+	background-color:#E4F106;
+}
+
+.panelStyle3{
+	float: left;
+	margin: 10px;
+	background-color:#19FF16;
+}
+
+.panelStyle4{
+	float: left;
+	margin: 10px;
+	background-color:#F36366;
+}

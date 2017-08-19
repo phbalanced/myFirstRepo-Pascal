@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Timer Sample</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Timeouts!</h1>
+
+    <button id="window-cancel">Window Alert Cancel</button>
+
+    <br>
+    <br>
+
+    <button id="start">Button Timeout Start</button>
+    <button id="cancel">Button Timeout Cancel</button>
+
+	<script type="text/javascript">
+		//  Variable that will hold the button alert's timeout when it is clicked.
+      var delayButtonAlert;
+      var windowTimeout = setTimeout(function() {
+      	alert("Alert #1");
+      }, 1000);
+
+      $("#start").on("click", function() {
+		delayButtonAlert = setTimeout(function() {
+			alert("Alert #2");
+		}, 3000);      	
+      });
+
+      $("#cancel").on("click", function() {
+      	clearTimeout(delayButtonAlert);
+      });
+
+	</script>
+
+</body>
+
+</html>
