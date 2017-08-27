@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  /*background-color: blue; DECIED TO GO WITH GROOVY DC IMAGE INSTEAD*/
+  color: white;
+  background-image: url(../img/DC-comic-group-image-overlay.jpg); /*I tried the 'no-repeat center fixed' attributes on this so it wouldn't tile the way it is, and the image kept disappearing and I'm not sure why. I've used these attributes before on images, and it's worked. But wouldn't work this time, and I got sick of messing with it. */
+}
+
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: blue;
+  color: white;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.img-wrong {
+  margin-top: 40px;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
+
